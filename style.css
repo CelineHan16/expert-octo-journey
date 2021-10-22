@@ -1,0 +1,23 @@
+header {
+  text-align: center;
+  background-image: url(./images/v975-background-07-b-kqkr4ukm.jpg);
+  height: 300px;
+  font-size: 50px;
+  padding: 50px;
+  
+}
+nav {
+  height: 100px;
+  border: 2px solid;
+  
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  height: 50px;
+}
+ul li {
+  float: left;
+}

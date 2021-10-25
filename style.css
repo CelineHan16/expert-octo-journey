@@ -1,23 +1,117 @@
-header {
-  text-align: center;
-  background-image: url(./images/v975-background-07-b-kqkr4ukm.jpg);
-  height: 300px;
-  font-size: 50px;
-  padding: 50px;
-  
+* {
+  margin: 0%;
 }
-nav {
-  height: 100px;
-  border: 2px solid;
-  
+/* Header */
+.header {
+  background-image: url(./images/navbg.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 400px;
 }
-
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  height: 50px;
+.header-budapest {
+  background-image: url(./images/budapest-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 400px;
 }
-ul li {
-  float: left;
+.header-rome {
+  background-image: url(./images/Rome-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 400px;
+}
+.header-paris {
+  background-image: url(./images/paris-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 400px;
+}
+.header-venice {
+  background-image: url(./images/venice-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 400px;
+}
+.header-barcelona {
+  background-image: url(./images/barcelona-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 400px;
+}
+.header-francisco {
+  background-image: url(./images/San-Francisco-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 400px;
+}
+.header-london {
+  background-image: url(./images/London-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 400px;
+}
+.header-ny {
+  background-image: url(./images/NYC-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 400px;
+}
+.header-saint {
+  background-image: url(./images/saint-petersburg-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 400px;
+}
+.header-logo {
+  font-size: 30px;
+  font-weight: 700;
+  color: rgb(250, 230, 252);
+  font-family: 'Kaushan Script', cursive;
+}
+.header-inner {
+  display: flex;
+  justify-content: space-between; 
+}
+.header-title {
+  font-size: 70px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white;
+  margin: 50px;
+  font-family: 'Montserrat', sans-serif;
+}
+/* Container */
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+}
+/* Nav */
+.nav {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.nav-link {
+  display: inline-block;
+  vertical-align: bottom;
+  margin: 15px;
+  color: rgb(19, 80, 49);
+  font-weight: 500;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  transition: color .1s linear;
+}
+.nav-link:hover {
+  color: rgb(252, 7, 7);
+  background-color: rgba(173, 171, 173, 0.801);
 }
